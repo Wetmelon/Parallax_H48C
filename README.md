@@ -7,3 +7,5 @@ The basic functionality of the chip has been ported from PBASIC for use with Ard
 # Usage
 Simply declare an object and pass in the data pin, clock pin, and "chip select" pin.  
 Data and Clock pins can be shared across multiple accelerometers on a bus, but the chip select must be unique.
+
+License: The MIT License (MIT)
