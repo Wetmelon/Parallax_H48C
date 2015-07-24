@@ -55,12 +55,12 @@ class Parallax_H48C
 	 float convertToG(uint16_t);
 
  public:
-	 float readXAxis();	// Reads only the X axis
-	 float readYAxis();	// Reads only the Y axis
-	 float readZAxis();	// Reads only the Z axis
-	 float* readAllAxes();	// Reads all axes { X, Y, Z }
+	 float readXAxis();	// Returns the X axis G-Force value
+	 float readYAxis();	// Returns the Y axis G-Force value
+	 float readZAxis();	// Returns the Z axis G-Force value
+	 float* readAllAxes();	// Returns all axes' G-Force values { X, Y, Z }
 
-	 Parallax_H48C(uint8_t dataPin, uint8_t clockPin, uint8_t chipSelect);
+	 Parallax_H48C(uint8_t dataPin, uint8_t clockPin, uint8_t chipSelect);  // dataPin, clockPin, chipSelect
 };
 
 #endif // !Parallax_H48C_h
